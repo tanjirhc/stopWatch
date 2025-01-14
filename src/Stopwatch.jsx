@@ -40,7 +40,10 @@ function Stopwatch() {
   function formatTime(){
 
     let hours = Math.floor(elapseTime / (1000 * 60 * 60));
-    
+    let minutes = Math.floor(elapseTime / (1000 * 60) % 60);
+    let seconds = Math.floor(elapseTime / (1000) % 60);
+    let miliseconds = Math.floor((elapseTime % 1000) / 10);
+
 
     return `00:00:00`
   }
