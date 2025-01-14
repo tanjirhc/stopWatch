@@ -45,7 +45,7 @@ function Stopwatch() {
     let miliseconds = Math.floor((elapseTime % 1000) / 10);
 
 
-    return `00:00:00`
+    return `${hours}:${minutes}:${seconds}:${miliseconds}`;
   }
 
   return(    
