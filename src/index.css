@@ -33,5 +33,20 @@ body{
   transition: background-color 0.5s ease;
 }
 .start-button{
-  background-color: green;
+  background-color: #27ae60;
+}
+.start-button:hover{
+  background-color: #2ecc71;
+}
+.stop-button{
+  background-color: #2980b9;
+}
+.stop-button:hover{
+  background-color: #3498db;
+}
+.reset-button{
+  background-color: #d35400;
+}
+.reset-button:hover{
+  background-color: #e67e22;
 }
