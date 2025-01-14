@@ -39,6 +39,9 @@ function Stopwatch() {
 
   function formatTime(){
 
+    let hours = Math.floor(elapseTime / (1000 * 60 * 60));
+    
+
     return `00:00:00`
   }
 
